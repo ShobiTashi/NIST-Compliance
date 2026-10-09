@@ -1,0 +1,18 @@
+Function,Subcategory ID,Outcome,Current Rating,Current Value,Target Rating,Target Value,Gap,Priority
+Govern,GV.RM-03,Risk appetite and enterprise risk integration,Not Achieved,0,Largely Achieved,2,2,High
+Govern,GV.RR-01,Leadership accountable for cybersecurity risk,Largely Achieved,2,Largely Achieved,2,0,None
+Govern,GV.PO-01,Policy established communicated and enforced,Partially Achieved,1,Largely Achieved,2,1,Medium
+Govern,GV.OV-01,Strategy outcomes reviewed to adjust direction,Partially Achieved,1,Largely Achieved,2,1,Medium
+Govern,GV.SC-04,Suppliers known and prioritized by criticality,Not Achieved,0,Largely Achieved,2,2,High
+Identify,ID.AM-01,Hardware and cloud asset inventories maintained,Partially Achieved,1,Largely Achieved,2,1,Medium
+Identify,ID.RA-01,Vulnerabilities identified validated and recorded,Partially Achieved,1,Largely Achieved,2,1,Medium
+Protect,PR.AA-01,Identities and credentials managed for all accounts,Partially Achieved,1,Fully Achieved,3,2,High
+Protect,PR.DS-01,Confidentiality integrity availability of data at rest,Largely Achieved,2,Largely Achieved,2,0,None
+Protect,PR.AT-01,Personnel awareness and training,Partially Achieved,1,Largely Achieved,2,1,Medium
+Protect,PR.PS-01,Configuration management baseline applied,Partially Achieved,1,Largely Achieved,2,1,Medium
+Detect,DE.CM-01,Networks and services monitored for adverse events,Partially Achieved,1,Largely Achieved,2,1,Medium
+Detect,DE.AE-02,Potentially adverse events analyzed,Not Achieved,0,Largely Achieved,2,2,High
+Respond,RS.MA-01,Incident response plan executed when declared,Partially Achieved,1,Largely Achieved,2,1,Medium
+Respond,RS.CO-02,Stakeholders notified of incidents on time,Partially Achieved,1,Largely Achieved,2,1,Medium
+Recover,RC.RP-03,Backup integrity verified before restoration,Not Achieved,0,Fully Achieved,3,3,High
+Recover,RC.CO-03,Recovery progress communicated to stakeholders,Partially Achieved,1,Largely Achieved,2,1,Medium
