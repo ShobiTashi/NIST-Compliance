@@ -1,0 +1,58 @@
+# Govern (recap and operational detail) 
+• A Chief Information Security Officer was appointed four months ago and is 
+accountable for cybersecurity risk, reporting to the CEO. 
+• Cybersecurity policy exists but is spread across five documents written between 
+2019 and 2024. Two contradict each other on access control. Enforcement differs 
+between Cloud Services and Consumer Products. 
+• No formal risk appetite or tolerance statement exists. 
+• The board reviews cybersecurity risk each quarter using a slide summary prepared 
+by the CISO. 
+• No prioritized supplier inventory exists. Suppliers are tracked informally by the 
+procurement team. No security due diligence is performed before contracting a new 
+supplier. 
+Identify 
+• A cloud asset inventory exists as a spreadsheet maintained by one engineer. It is 
+updated when someone remembers, and a recent spot check found three production 
+services missing from it. 
+• Software and services are partially inventoried through the cloud provider console, 
+but there is no single consolidated list. 
+• Vulnerability scanning runs monthly against internet-facing systems. Findings are 
+emailed to the engineering lead. There is no formal process to validate, prioritize, 
+and track them to closure. 
+• No scheduled, documented cybersecurity risk assessment has been performed for 
+the platform.
+
+Protect 
+• Staff authenticate to the platform’s administrative console through the corporate 
+identity provider using single sign-on. Multi-factor authentication is enabled for the 
+identity provider but is not enforced for every administrative account; three long
+standing admin accounts still use password-only sign-in. 
+• Customer personal data is encrypted at rest using the cloud provider’s managed 
+encryption, and all data in transit is protected with current TLS. 
+• Security awareness training is assigned annually. The most recent completion rate 
+was 61 percent, and there is no follow-up for non-completion. 
+• Platform configuration is managed manually. There is no documented configuration 
+baseline, and changes are applied directly by engineers without a standard review. 
+Detect 
+• The cloud provider’s logging is enabled for the platform and the identity provider, 
+and logs are retained for 90 days. 
+• Logs are not aggregated into a central monitoring system, and there is no SIEM. No 
+one reviews logs on a scheduled basis. 
+• A few automated alerts (for example, root account usage) are configured to send 
+email to a shared inbox that is checked during business hours only. 
+• There is no baseline of normal activity against which anomalies could be compared. 
+Respond 
+• A written incident response plan exists. It was created two years ago and has never 
+been exercised or tested. 
+• Incident roles are described in the plan at a high level, but staff interviewed were 
+unsure who declares an incident or who contacts customers. 
+• Customer contracts require notification of security incidents within defined 
+timeframes, but there is no internal runbook that maps those contractual 
+timeframes to concrete notification steps. 
+Recover 
+• Backups of customer data run automatically every day and are stored in a separate 
+cloud region. 
+• Backup integrity is not verified before a restore, and there is no scheduled test of the 
+restore process. The last actual restore was performed 14 months ago during a 
+migration and was not documented. 
+• There is no defined criterion for declaring recovery complete after an incident. 
