@@ -1,0 +1,6 @@
+Rank,Outcome,Current,Target,Gap,Why it matters
+1,PR.AA-01 access control,Partially,Fully,2,Administrative access to the most sensitive data; some admin accounts still use password-only sign-in
+2,RC.RP-03 backup verification,Not,Fully,3,"Backups exist but are never integrity-verified or restore-tested, so recovery is unproven"
+3,GV.SC-04 supplier prioritization,Not,Largely,2,"The platform depends entirely on one hosting provider, and no supplier due diligence exists"
+4,RS.CO-02 incident notification,Partially,Largely,1,"Contracts require notification within set timeframes, but no runbook maps them to steps"
+5,DE.CM-01 monitoring,Partially,Largely,1,"Logs are collected but not monitored, so adverse events would go unseen"
